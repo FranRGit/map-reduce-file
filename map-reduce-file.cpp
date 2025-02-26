@@ -91,7 +91,7 @@ std::vector<std::string> read_reviews_from_file(const std::string& filename) {
 }
 
 int main() {
-    std::string filename = "C://Users//USUARIO//Complementos//Desarrollo//Resources programacion//Parallel programming//Map-Reduce//TestReviews.csv";
+    std::string filename = "folder;
     std::vector<std::string> reviews = read_reviews_from_file(filename);
 
     if (reviews.empty()) {
